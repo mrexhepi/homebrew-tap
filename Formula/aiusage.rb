@@ -1,26 +1,26 @@
 class Aiusage < Formula
   desc "Local dashboard for understanding AI coding usage"
   homepage "https://github.com/mrexhepi/homebrew-tap"
-  version "0.4.3"
+  version "0.5.0"
   license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/mrexhepi/homebrew-tap/releases/download/v0.4.3/aiusage_0.4.3_darwin_arm64.tar.gz"
-      sha256 "44e0e3cd465a835fcb5d04106cd934d4b1157f570b7618e2051aff471018bcae"
+      url "https://github.com/mrexhepi/homebrew-tap/releases/download/v0.5.0/aiusage_0.5.0_darwin_arm64.tar.gz"
+      sha256 "b813fb888fb81b58edda7a7c22dde28a39ebfd780a5b3d2fa84796dadda87185"
     else
-      url "https://github.com/mrexhepi/homebrew-tap/releases/download/v0.4.3/aiusage_0.4.3_darwin_amd64.tar.gz"
-      sha256 "64f180969d40867f8ef309af7071b34dafeda2668d4b8e7e95a722a4827edf35"
+      url "https://github.com/mrexhepi/homebrew-tap/releases/download/v0.5.0/aiusage_0.5.0_darwin_amd64.tar.gz"
+      sha256 "d1edd5e2c7a29406eec349b7d161790ee0e1a7a8610f9d028cb71eac26e42ad7"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/mrexhepi/homebrew-tap/releases/download/v0.4.3/aiusage_0.4.3_linux_arm64.tar.gz"
-      sha256 "bd4f876f94bef42024776a88c3d853bc6187f382bc235efc691f939b3d3e5867"
+      url "https://github.com/mrexhepi/homebrew-tap/releases/download/v0.5.0/aiusage_0.5.0_linux_arm64.tar.gz"
+      sha256 "8f8b8ec7c0d8006fe767030ab97a0a513ac9dcef56ef06248717b90169658c90"
     else
-      url "https://github.com/mrexhepi/homebrew-tap/releases/download/v0.4.3/aiusage_0.4.3_linux_amd64.tar.gz"
-      sha256 "ca2f9758faace908a76c72debf831a05470f2ad6b14c0a716811898ea44a7ada"
+      url "https://github.com/mrexhepi/homebrew-tap/releases/download/v0.5.0/aiusage_0.5.0_linux_amd64.tar.gz"
+      sha256 "f170ba1e41b640000643b2f8987c379309543d5a901e9548814f11bbdd5908c2"
     end
   end
 
