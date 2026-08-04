@@ -1,6 +1,6 @@
 class Aiusage < Formula
   desc "Local dashboard for understanding AI coding usage"
-  homepage "https://github.com/mrexhepi/aiusage"
+  homepage "https://github.com/mrexhepi/homebrew-tap"
   version "0.4.0"
   license :cannot_represent
 
